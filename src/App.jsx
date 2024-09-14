@@ -13,6 +13,7 @@ function App() {
   return (
       <div className={`App ${theme}`}>
           <Navbar/>
+          <div className="con-route">
           <Routes>
             <Route path='/home' element={<Home/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
@@ -20,6 +21,8 @@ function App() {
             <Route path='/dentist/:id' element={<Detail/>}></Route>
             
           </Routes>
+
+          </div>
           <Footer/>
       </div>
   );

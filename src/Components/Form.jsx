@@ -36,7 +36,7 @@ const Form = () => {
         <input type="text" value={name} onChange={handleChangeName} />
         <label>Email</label>
         <input type="text" value={email} onChange={handleChangeEmail}/>
-        <button type="submit">Enviar</button>
+        <button className="btn-form" type="submit">Enviar</button>
       </form>
       {show ? (
         <>
